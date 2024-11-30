@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+.box-1{
+    background: linear-gradient(rgb(233, 198, 84) -20%, gray);
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+body{
+    background: linear-gradient(rgb(233, 198, 84),gray 70%);
+}
+.box{
+    height: 100px;
+    flex-direction: column;
+}
